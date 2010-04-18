@@ -1,0 +1,27 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>User <%=h @name %></title>
+  <%= stylesheet_link_tag "top" %>
+</head>
+<body>
+<div class="head">
+  <h1><%= link_to "CLUSTER" ,:controller => "cluster", :action => "top" %></h1>
+</div>
+<div class="contents">
+<div>
+  <img src="<%=h @user.image %>" /><a href="http://twitter.com/<%=h @name %>">@<%=h @name %></a>
+</div>
+<div>
+   <% for cluster in @user.clusters %>
+     [ <a href="/cluster/add/<%=h cluster.name %>"><%=h cluster.name %></a>]
+   <% end %>
+</div>
+<div class="fetch">
+   <% for friend in @friends %>
+     <% next if friend[1].size <= 1 %>
+     <div><%= link_to friend[0], :controller => 'user',:action => 'details', :id => friend[0] %>さんと <%= (friend[1].size.prec_f / @user.clusters.size.prec_f * 100).truncate %> % クラスタの一致</div>
+   <% end %>
+</div>
+</div>
+</body>
+</html>

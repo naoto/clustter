@@ -1,0 +1,160 @@
+
+
+Processing ClusterController#t (for 202.211.128.98 at 2009-09-25 12:45:38) [GET]
+
+ActionController::UnknownAction (No action responded to t. Actions: add, auto_complete_for_culster_name, auto_complete_for_user_name, create, and top):
+  
+
+Rendering /home/naoto/web/clustter/public/404.html (404 Not Found)
+
+
+Processing ClusterController#top (for 202.211.128.98 at 2009-09-25 12:45:49) [GET]
+Rendering cluster/top
+Completed in 83ms (View: 37, DB: 3) | 200 OK [http://otolabo.ddo.jp/cluster/top]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 12:47:08) [GET]
+  Parameters: {"id"=>"chinenm"}
+Rendering user/details
+Completed in 18ms (View: 3, DB: 3) | 200 OK [http://otolabo.ddo.jp/user/details/chinenm]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 13:10:05) [GET]
+  Parameters: {"id"=>"toshiki_y"}
+Rendering user/details
+Completed in 276ms (View: 5, DB: 259) | 200 OK [http://otolabo.ddo.jp/user/details/toshiki_y]
+
+
+Processing UserController#details (for 119.63.199.31 at 2009-09-25 13:22:34) [GET]
+  Parameters: {"id"=>"markn69"}
+Rendering user/details
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://otolabo.ddo.jp/user/details/markn69]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 13:33:00) [GET]
+  Parameters: {"id"=>"miyaomiyao"}
+Rendering user/details
+Completed in 93ms (View: 1, DB: 81) | 200 OK [http://otolabo.ddo.jp/user/details/miyaomiyao]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 13:56:00) [GET]
+  Parameters: {"id"=>"terusuke"}
+Rendering user/details
+Completed in 24ms (View: 1, DB: 12) | 200 OK [http://otolabo.ddo.jp/user/details/terusuke]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 14:19:02) [GET]
+  Parameters: {"id"=>"shiawaseusagi"}
+Rendering user/details
+Completed in 78ms (View: 1, DB: 66) | 200 OK [http://otolabo.ddo.jp/user/details/shiawaseusagi]
+
+
+Processing UserController#details (for 119.63.199.39 at 2009-09-25 14:22:40) [GET]
+  Parameters: {"id"=>"mariusz137"}
+Rendering user/details
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://otolabo.ddo.jp/user/details/mariusz137]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 14:41:54) [GET]
+  Parameters: {"id"=>"shimabukuro"}
+Rendering user/details
+Completed in 13ms (View: 1, DB: 2) | 200 OK [http://otolabo.ddo.jp/user/details/shimabukuro]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 15:04:50) [GET]
+  Parameters: {"id"=>"morisii"}
+Rendering user/details
+Completed in 37ms (View: 1, DB: 32) | 200 OK [http://otolabo.ddo.jp/user/details/morisii]
+
+
+Processing UserController#details (for 119.63.199.19 at 2009-09-25 15:22:47) [GET]
+  Parameters: {"id"=>"marie_9801"}
+Rendering user/details
+Completed in 20ms (View: 7, DB: 1) | 200 OK [http://otolabo.ddo.jp/user/details/marie_9801]
+
+
+Processing ClusterController#add (for 66.249.71.137 at 2009-09-25 15:27:52) [GET]
+  Parameters: {"id"=>"沖縄"}
+Rendering cluster/add
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://otolabo.ddo.jp/cluster/add/%E6%B2%96%E7%B8%84]
+
+
+Processing ClusterController#top (for 202.211.128.98 at 2009-09-25 15:50:48) [GET]
+Rendering cluster/top
+Completed in 25ms (View: 23, DB: 1) | 200 OK [http://otolabo.ddo.jp/cluster/top]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 15:50:49) [GET]
+  Parameters: {"id"=>"Touichirou"}
+Rendering user/details
+Completed in 18ms (View: 4, DB: 2) | 200 OK [http://otolabo.ddo.jp/user/details/Touichirou]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 16:13:48) [GET]
+  Parameters: {"id"=>"kyankyankyan"}
+Rendering user/details
+Completed in 45ms (View: 1, DB: 33) | 200 OK [http://otolabo.ddo.jp/user/details/kyankyankyan]
+
+
+Processing UserController#details (for 119.63.199.5 at 2009-09-25 16:23:12) [GET]
+  Parameters: {"id"=>"makotti"}
+Rendering user/details
+Completed in 21ms (View: 5, DB: 4) | 200 OK [http://otolabo.ddo.jp/user/details/makotti]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 16:36:46) [GET]
+  Parameters: {"id"=>"haraguni"}
+Rendering user/details
+Completed in 20ms (View: 5, DB: 4) | 200 OK [http://otolabo.ddo.jp/user/details/haraguni]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 16:59:44) [GET]
+  Parameters: {"id"=>"sam_tmk"}
+Rendering user/details
+Completed in 85ms (View: 1, DB: 73) | 200 OK [http://otolabo.ddo.jp/user/details/sam_tmk]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 17:22:42) [GET]
+  Parameters: {"id"=>"kaorinn_"}
+Rendering user/details
+Completed in 14ms (View: 1, DB: 2) | 200 OK [http://otolabo.ddo.jp/user/details/kaorinn_]
+
+
+Processing UserController#details (for 119.63.199.6 at 2009-09-25 17:23:18) [GET]
+  Parameters: {"id"=>"Makotoga"}
+Rendering user/details
+Completed in 14ms (View: 1, DB: 3) | 200 OK [http://otolabo.ddo.jp/user/details/Makotoga]
+
+
+Processing UserController#details (for 61.27.218.79 at 2009-09-25 17:36:52) [GET]
+  Parameters: {"id"=>"k1LoW"}
+Rendering user/details
+Completed in 108ms (View: 1, DB: 103) | 200 OK [http://otolabo.ddo.jp/user/details/k1LoW]
+
+
+Processing ClusterController#top (for 61.27.218.79 at 2009-09-25 17:36:57) [GET]
+Rendering cluster/top
+Completed in 110ms (View: 91, DB: 18) | 200 OK [http://otolabo.ddo.jp/cluster/top]
+
+
+Processing ClusterController#add (for 61.27.218.79 at 2009-09-25 17:37:32) [GET]
+  Parameters: {"id"=>"PHP"}
+Rendering cluster/add
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://otolabo.ddo.jp/cluster/add/PHP]
+
+
+Processing ClusterController#top (for 61.27.218.79 at 2009-09-25 17:37:38) [GET]
+Rendering cluster/top
+Completed in 27ms (View: 25, DB: 1) | 200 OK [http://otolabo.ddo.jp/cluster/top]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 17:45:42) [GET]
+  Parameters: {"id"=>"shunirr"}
+Rendering user/details
+Completed in 16ms (View: 2, DB: 2) | 200 OK [http://otolabo.ddo.jp/user/details/shunirr]
+
+
+Processing UserController#details (for 66.249.71.137 at 2009-09-25 18:08:35) [GET]
+  Parameters: {"id"=>"kiyancan"}
+Rendering user/details
+Completed in 14ms (View: 1, DB: 2) | 200 OK [http://otolabo.ddo.jp/user/details/kiyancan]

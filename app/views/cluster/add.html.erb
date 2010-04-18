@@ -1,0 +1,42 @@
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+  <title>クラスタ作成</title>
+  <%= javascript_include_tag "prototype" %>
+  <%= javascript_include_tag "effects" %>
+  <%= javascript_include_tag "controls" %>
+  <%= javascript_include_tag "user" %>
+  <%= stylesheet_link_tag "cluster" %>
+  <%= stylesheet_link_tag "top" %>
+</head>
+<body>
+<div class="head">
+  <h1><%= link_to "CLUSTTER" ,:controller => "cluster", :action => "top" %></h1>
+  クラスタ作成
+</div>
+
+<div class="contents">
+<%= form_tag :action => 'create' %>
+<div>
+  <span>Cluster NAME:</span>
+  <%= text_field "cluster","name" %>クラスタ
+  <%= hidden_field "cluster","id" %>
+</div>
+
+<div id="template">
+  <span>User:</span>
+  <Div><%= text_field_with_auto_complete :user, :name  %></div>
+  <div><%= text_area_tag("cluster[full]", "") %>一括で登録したい場合はこちらに入力してください.</div>
+  <input type="button" name="addbtn" id="addbtn" value="追加" />
+</div>
+<div id="addfield">
+  <% for user in @cluster.users %>
+    <img src="<%=h user.image %>" alt="<%=h user.screen %>" width="24" height="24" />
+    <input type="hidden" name="twitter[]" id="twitter[]" value="<%= user.name %>" />
+  <% end %>
+</div>
+  <%= submit_tag "登録" %>
+  <%= error_messages_for 'contact' %>
+</div>
+<%= link_to "もどる", :controller => "cluster", :action => "top" %>
+</body>
+</html>

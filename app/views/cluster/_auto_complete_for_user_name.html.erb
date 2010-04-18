@@ -1,0 +1,5 @@
+<ul>
+  <% @items.each do |item| -%>
+    <li id=<%= item.id %>><img src="<%= item.image %>" alt="<%= item.screen %>" width="24" height="24"/><%= item.name -%></li>
+  <% end -%>
+</ul>

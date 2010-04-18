@@ -1,0 +1,46 @@
+body {
+  text-align : center;
+  background-color : #CCCCCC;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration : none;
+}
+
+a img {
+  border-style : none;
+}
+
+h1 {
+  font-family : Impact;
+  color : #FFFFFF;
+}
+
+div.head {
+  width : 700px;
+  text-align : left;
+}
+
+div.contents {
+  text-align : left;
+  width : 700px;
+  background-color : #FFFFFF;
+  border : 1px solid #000000;
+  padding : 5px;
+}
+
+div.name {
+  font-size : 2em;
+  font-weight : bold;
+  margin : 5px;
+}
+
+div.user {
+  margin : 5px 5px 5px 30px;
+}
+
+div.fetch {
+  padding : 10px;
+}

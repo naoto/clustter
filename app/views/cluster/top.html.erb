@@ -1,0 +1,25 @@
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+  <title>CLUSTTER</title>
+  <%= stylesheet_link_tag "top" %>
+</head>
+<body>
+<div class="head">
+    <h1>CLUSTTER</h1>
+    <%= link_to '新しいクラスタを作る', :controller => 'cluster', :action => 'add' %>
+</div>
+<div class="contents">
+    <% for cluster in @clusters %>
+        <div class="cluster">
+          <div class="name"><a href="/cluster/add/<%=h cluster.name %>"><%=h cluster.name %>クラスタ</a>(<%= cluster.users.size %>人)</div>
+            <div class="user">
+            <% for user in cluster.users %>
+                <a href="/user/details/<%=h user.name %>"><img src="<%=h user.image %>" alt="<%=h user.name %>" width="24" height="24" /></a>
+            <% end %>
+            </div>
+        </div>
+        <hr />
+    <% end %>
+</div>
+</body>
+</html>

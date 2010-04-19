@@ -1,7 +1,7 @@
 Usage
 =============================================================
 
-CLUSTTER[http://otolabo.ddo.jp:3001/cluster/top/]
+[CLUSTTER](http://otolabo.ddo.jp:3001/cluster/top/)
 
 * /app/script/crawler.rb
 User情報を集めるクローラーです.

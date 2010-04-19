@@ -1,0 +1,23 @@
+File
+==========
+
+* /app/script/crawler.rb
+User情報を集めるクローラーです.
+
+        Usage
+        ./app/script/crawler.rb naotos
+
+ユーザを指定してその Follower をたどりながら情報を集めます.
+収集する情報は screenname / nickname / icon-url となります.
+
+
+1. clustter とは
+
+        Twitter の List に相当する機能です.
+        User にタグを付けていきその User に近い User を探す事が出来るようになります. 
+   
+     
+2. TODO
+     
+        List からの取り込みを可能にする. (現在別 Script にて可能)
+        タグの削除を可能にする.
